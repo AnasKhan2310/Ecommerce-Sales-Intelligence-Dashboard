@@ -1,0 +1,6 @@
+{
+  "name": "Ecommerce Sales Intelligence Dashboard",
+  "description": "Executive BI and analytics dashboard analyzing £10.64M in transactions across 524,000+ orders from the UK Online Retail dataset.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
