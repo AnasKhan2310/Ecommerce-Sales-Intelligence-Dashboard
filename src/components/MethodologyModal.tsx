@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, CheckCircle2, FileCode, Database, TrendingUp } from 'lucide-react';
+import { X, CheckCircle2, FileCode, Database, TrendingUp, User } from 'lucide-react';
 
 interface MethodologyModalProps {
   isOpen: boolean;
@@ -15,13 +15,8 @@ export const MethodologyModal: React.FC<MethodologyModalProps> = ({ isOpen, onCl
         {/* Modal Header */}
         <div className="sticky top-0 bg-white/95 px-6 py-4 border-b border-slate-100 flex items-center justify-between z-10">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full border-2 border-[#00bac7] overflow-hidden p-0.5">
-              <img
-                src="/src/assets/images/portfolio_author_avatar_1791976544191.jpg"
-                alt="Anas Khan"
-                className="w-full h-full object-cover rounded-full"
-                referrerPolicy="no-referrer"
-              />
+            <div className="w-10 h-10 rounded-full border-2 border-[#00bac7] flex items-center justify-center bg-[#00bac7]/10 text-[#00bac7]">
+              <User className="w-5 h-5" />
             </div>
             <div>
               <h2 className="text-base font-bold text-slate-900 tracking-tight">
